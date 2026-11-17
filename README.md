@@ -1,6 +1,6 @@
 # 01 - Linux, Git, Networking and Python
 
-Phase 1 of a 60-day journey from AVD support engineer to DevOps engineer.
+Phase 1 of a 60-day journey from support engineer to DevOps engineer.
 Start here: **[LEARNING.md](LEARNING.md)** has the day-by-day plan (Days 1-12).
 
 ## What is in this repo

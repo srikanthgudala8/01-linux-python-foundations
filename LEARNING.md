@@ -36,7 +36,7 @@ AWS free tier t3.micro), or Multipass/VirtualBox. Use Ubuntu 22.04 or 24.04.
 - **Do:** `apt update/install`, `ip a`, `ip route`, `ping`, `traceroute`, `dig`, `nslookup`, `curl -v`, `ss -tlnp`, `nc -zv`, `ufw`.
 - **Lab:** for `https://example.com` capture each stage: DNS lookup (`dig`), TCP connect (`nc -zv host 443`), TLS and HTTP (`curl -v`). Write down what a failure at each stage looks like.
 - **Done when:** you can narrow "the site is down" to DNS, network, TLS or application.
-- **AVD link:** this is the same layered thinking you used for AVD connectivity tickets.
+- **Server link:** this is layered troubleshooting: is it the app, the OS, the network or the disk? Work from the bottom up.
 
 ### Day 5 - Bash scripting 1 (text processing)
 - **Learn:** pipes, redirection (`>`, `>>`, `2>&1`), `grep`, `awk`, `sed`, `sort`, `uniq`, `cut`, `wc`.
